@@ -2,10 +2,16 @@ server:
   port: 8080
 
 spring:
+  config:
+    import:
+      - optional:file:backend/.env[.properties]
+      - optional:file:.env[.properties]
+      - optional:file:../.env[.properties]
+
   datasource:
-    url: jdbc:postgresql://aws-1-ap-south-1.pooler.supabase.com:5432/postgres
-    username: postgres.smzcrqvgbrhkdcgjixme
-    password: b9BhoRrrAZdJV28A
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
@@ -45,7 +51,7 @@ app:
     allowed-origins: http://localhost:3000
   frontend-url: http://localhost:3000
   google-maps:
-    api-key: AIzaSyBmokYSwME1Ieblh1gmxBmhBJ1XyIl4cGQ
+    api-key: ${GOOGLE_MAPS_API_KEY}
 
 logging:
   level:

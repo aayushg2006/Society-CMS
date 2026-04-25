@@ -42,7 +42,7 @@ SocietyCMS is a state-of-the-art, role-based management system designed for mode
 
 ### Backend Setup
 1. Clone the repository.
-2. Configure `backend/src/main/resources/application.yml` with your database credentials.
+2. Create `backend/.env` from `backend/.env.example` and set your database and Google Maps values.
 3. Pull the TinyLlama model for AI features:
    ```bash
    ollama pull tinyllama
