@@ -1,0 +1,14 @@
+FullName,Email,Password,Role(RESIDENT/STAFF/ADMIN),PhoneNumber,BuildingName,FlatNumber
+Amit Sharma,amit.t101@example.com,securepass123,RESIDENT,+919876543001,Tower A,101
+Priya Patel,priya.t102@example.com,securepass123,RESIDENT,+919876543002,Tower A,102
+Rahul Desai,rahul.t201@example.com,securepass123,RESIDENT,+919876543003,Tower A,201
+Sneha Kapoor,sneha.tb101@example.com,securepass123,RESIDENT,+919876543004,Tower B,101
+Vikram Singh,vikram.tb202@example.com,securepass123,RESIDENT,+919876543005,Tower B,202
+Neha Verma,neha.tc301@example.com,securepass123,RESIDENT,+919876543006,Tower C,301
+Arjun Iyer,arjun.tc305@example.com,securepass123,RESIDENT,+919876543007,Tower C,305
+Ananya Reddy,ananya.td101@example.com,securepass123,RESIDENT,+919876543008,Tower D,101
+Karan Malhotra,karan.td401@example.com,securepass123,RESIDENT,+919876543009,Tower D,401
+Ramesh Kumar,ramesh.security@example.com,staffpass123,STAFF,+919876543010,,
+Suresh Plumber,suresh.plumber@example.com,staffpass123,STAFF,+919876543011,,
+Ravi Electrician,ravi.elec@example.com,staffpass123,STAFF,+919876543012,,
+Manoj Sweeper,manoj.sweep@example.com,staffpass123,STAFF,+919876543013,,

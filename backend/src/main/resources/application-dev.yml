@@ -1,0 +1,15 @@
+# Development Profile Configuration
+# Activated with: --spring.profiles.active=dev
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    com.societycms: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
